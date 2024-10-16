@@ -1,0 +1,11 @@
+.dice {
+  @apply w-32 bg-blue-500 h-32 rounded-3xl grid grid-cols-3 grid-rows-3 gap-3 justify-center items-center;
+}
+
+.big-dot {
+  @apply justify-self-center col-start-2 w-10 h-10 bg-white rounded-full;
+}
+
+.small-dot {
+  @apply justify-self-center w-7 h-7 bg-white rounded-full;
+}
